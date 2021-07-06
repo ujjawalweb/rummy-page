@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+<link rel="stylesheet" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bgg">
+        <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="images/01.png" width="120" height="120"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fa fa-bars text-white"></i></span>
+        </button>
+      
+
+<div class="icons">
+<span class="color cc">Download our app for </span> &nbsp;&nbsp;&nbsp;
+<i class="fa fa-android aa"></i>&nbsp;&nbsp;&nbsp;
+<i class="fa fa-apple bb"></i>
+
+    <a href="login.html"><button class="blue">
+      Login
+    </button></a>
+	
+    <a href="login.html"> <button class="blues">
+      Signup
+    </button></a>
+
+    </div>
+      </nav>
+	  
+	
+  <div class="container-fluid bg-black">
+    <div class="row">
+    <div class="col-md-12"><marquee>Please Note: As per the latest regulation passed by the state of Kerala, players from Kerala will not be able to access real cash games, tournaments and add cash balances, but can redeem their balances by logging into Ace2Three platform.</marquee> </div>
+  </div>
+</div>
+
+
+
+<div class="container-fluid banners">
+<div class="container">
+<div class="row">
+<div class="col-md-6"><img src="images/bannerimg.png" width="600" class="mtops"></div>
+
+
+<div class="col-md-6 margleft"> <div class="container">
+  <div class="frame">
+    <div class="nav">
+      <ul class="links">
+        <li class="signin-active"><a class="btn">Sign in</a></li>
+        <li class="signup-inactive"><a class="btn">Sign up </a></li>
+      </ul>
+    </div>
+    <div ng-app ng-init="checked = false">
+				        <form class="form-signin" action="" method="post" name="form">
+          <label for="username">Username/Mobile no</label>
+          <input class="form-styling" type="text" name="username" placeholder=""/>
+
+          <label>
+        Forgot Username ?</label>
+          <div class="btn-animate">
+            <a class="btn-signin">Continue</a>
+			<p class="text-center mtop">OR</p>
+          </div>
+		  
+		  <div class="google-fb">
+		 <img src="images/face.png" width="40">
+		  <img src="images/google.png" height="40">
+		   </div>
+				        </form>
+        
+				        <form class="form-signup" action="" method="post" name="form">
+          <label for="username">Username</label>
+          <input class="form-styling" type="text" name="fullname" placeholder=""/>
+          <label for="email">Mobile No</label>
+          <input class="form-styling" type="text" name="mobile" placeholder=""/>
+		  
+		   <label for="checkbox" ><span class="ui"></span>Have a referral code?</label>
+       
+          <a ng-click="checked = !checked" class="btn-signup text-white">Sign Up</a>
+		  
+		  	  
+		  <div class="google-fbs">
+		 <img src="images/face.png" width="40">
+		  <img src="images/google.png" height="40">
+		   </div>
+				        </form>
+      
+            <div  class="success">
+              <svg width="270" height="270" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+       viewBox="0 0 60 60" id="check" ng-class="checked ? 'checked' : ''">
+                 <path fill="#ffffff" d="M40.61,23.03L26.67,36.97L13.495,23.788c-1.146-1.147-1.359-2.936-0.504-4.314
+                  c3.894-6.28,11.169-10.243,19.283-9.348c9.258,1.021,16.694,8.542,17.622,17.81c1.232,12.295-8.683,22.607-20.849,22.042
+                  c-9.9-0.46-18.128-8.344-18.972-18.218c-0.292-3.416,0.276-6.673,1.51-9.578" />
+                <div class="successtext">
+                   <p> Thanks for signing up! Check your email for confirmation.</p>
+                </div>
+             </div>
+      </div>
+      
+   
+      
+    <div>
+        <div class="cover-photo"></div>
+        <div class="profile-photo"></div>
+        <h1 class="welcome">Welcome, Chris</h1>
+        <a class="btn-goback" value="Refresh" onClick="history.go()">Go back</a>
+      </div>
+  </div>
+    
+  <a id="refresh" value="Refresh" onClick="history.go()">
+    <svg class="refreshicon"   version="1.1" id="Capa_1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         width="25px" height="25px" viewBox="0 0 322.447 322.447" style="enable-background:new 0 0 322.447 322.447;"
+         xml:space="preserve">
+         <path  d="M321.832,230.327c-2.133-6.565-9.184-10.154-15.75-8.025l-16.254,5.281C299.785,206.991,305,184.347,305,161.224
+                c0-84.089-68.41-152.5-152.5-152.5C68.411,8.724,0,77.135,0,161.224s68.411,152.5,152.5,152.5c6.903,0,12.5-5.597,12.5-12.5
+                c0-6.902-5.597-12.5-12.5-12.5c-70.304,0-127.5-57.195-127.5-127.5c0-70.304,57.196-127.5,127.5-127.5
+                c70.305,0,127.5,57.196,127.5,127.5c0,19.372-4.371,38.337-12.723,55.568l-5.553-17.096c-2.133-6.564-9.186-10.156-15.75-8.025
+                c-6.566,2.134-10.16,9.186-8.027,15.751l14.74,45.368c1.715,5.283,6.615,8.642,11.885,8.642c1.279,0,2.582-0.198,3.865-0.614
+                l45.369-14.738C320.371,243.946,323.965,236.895,321.832,230.327z"/>
+    </svg>
+  </a>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="container-fluid my-bg">
+<div class="container">
+
+<div class="row justify-content-center">
+<div class="col-md-3 mt-5 mb-5 text-center"><div class="box">01</div> <h4 class="mt-2">JOIN FREE</h4><h5>Get 5000 free chips<br>
+to play</h5></div>
+
+<div class="col-md-3 mt-5 mb-5 text-center"> <div class="box">02</div><h4 class="mt-2">Get ₹50 FREE CASH</h4><h5>Verify mobile No.<br>
+to get ₹50
+</h5></div>
+
+<div class="col-md-3 mt-5 mb-5 text-center"> <div class="box">03</div><h4 class="mt-2">Get 175% of BONUS</h4><h5>Use welcome Bonus to<br>
+get Bonus upto ₹5000</h5></div>
+
+<div class="col-md-3 mt-5 mb-5 text-center"> <div class="box">04</div><h4 class="mt-2">WIN CASH</h4><h5>Participate in rummy <br>tournaments to grab prizes
+</h5></div>
+
+</div>
+</div>
+</div>
+
+
+<div class="container-fluid p-4"style="background-image:url(images/bg.jpg);">
+<div class="container">
+<div class="row">
+<div class="col-md-12"><img src="images/1.png" width="1100" class="ujj"></div>
+
+</div>
+</div>
+</div>
+
+
+
+<div class="container-fluid p-5 my-bg"style="border-top:7px solid #2c496d;border-bottom:7px solid #2c496d;">
+<div class="container">
+<div class="row">
+
+<div class="col-md-12 text-center"><h3 class="mb-5 headings">Play Online Rummy for Free & Real Cash and Win* Big Daily!</h3></div>
+
+
+
+<div class="col-md-4 mt-3"><img src="images/c1.jpg" class="img-fluid cards"></div>
+<div class="col-md-4 mt-3"><img src="images/c2.jpg" class="img-fluid cards"></div>
+<div class="col-md-4 mt-3"><img src="images/c4.jpg" class="img-fluid cards"></div>
+</div>
+
+</div>
+</div>
+
+
+
+
+<!--footer-->
+
+<footer class="section bg-footer">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-3">
+              <div class="">
+                  <h6 class="footer-heading text-uppercase text-white">Company</h6>
+                  <ul class="list-unstyled footer-link mt-4">
+                      <li><a href="">About Us
+                        
+                        </a></li>
+                      <li><a href="">Contact Us</a></li>
+                   
+                      
+                  </ul>
+              </div>
+          </div>
+
+          <div class="col-lg-3">
+              <div class="">
+                  <h6 class="footer-heading text-uppercase text-white">Links</h6>
+                  <ul class="list-unstyled footer-link mt-4">
+                      <li><a href="">Sitemap</a></li>
+                      <li><a href="">Security</a></li>
+                      <li><a href="">Legality</a></li>
+                      
+                  </ul>
+              </div>
+          </div>
+
+          <div class="col-lg-2">
+              <div class="">
+                  <h6 class="footer-heading text-uppercase text-white">Links</h6>
+                  <ul class="list-unstyled footer-link mt-4">
+                      <li><a href="">FAQs </a></li>
+                      <li><a href="">T & C</a></li>
+                      <li><a href="">Blog</a></li>
+                      
+                  </ul>
+              </div>
+          </div>
+
+          <div class="col-lg-4">
+              <div class="">
+                  <h6 class="footer-heading text-uppercase text-white">Social</h6>
+                  <p class="contact-info mt-4">Contact us if need help withanything</p>
+                  <p class="contact-info">+01 123-456-7890</p>
+                  <div class="mt-5">
+                      <ul class="list-inline">
+                          <li class="list-inline-item"><a href="#"><i class="fa facebook footer-social-icon fa-facebook-f"></i></i></a></li>
+                          <li class="list-inline-item"><a href="#"><i class="fa twitter footer-social-icon fa-twitter"></i></i></a></li>
+                          <li class="list-inline-item"><a href="#"><i class="fa google footer-social-icon fa-google"></i></i></a></li>
+                          <li class="list-inline-item"><a href="#"><i class="fa apple footer-social-icon fa-apple"></i></i></a></li>
+                          <li class="list-inline-item"><a href="#"><i class="fa apple footer-social-icon fa-android"></i></i></a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+<div class="col-md-6"><img src="images/right1.png" width="450" class="imgs"></div>
+<div class="col-md-6"><img src="images/upi.png" width="450" class="imgs"></div>
+    </div>
+  </div>
+
+
+
+  <div class="text-center mt-5">
+      <p class="footer-alt mb-0 f-14 text-center">© 2021 Head Digital Works Private Limited.</p>
+  </div>
+</footer>
+
+
+
+
+
+
+  
+   
+
+
+
+
+
+
+
+
+      <!-- jQuery library -->
+      <script src="bootstrap/js/jquery-3.4.1.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+<script>
+$(window, document, undefined).ready(function() {
+
+  $('.input').blur(function() {
+    var $this = $(this);
+    if ($this.val())
+      $this.addClass('used');
+    else
+      $this.removeClass('used');
+  });
+  
+  });
+
+
+$('#tab1').on('click' , function(){
+    $('#tab1').addClass('login-shadow');
+   $('#tab2').removeClass('signup-shadow');
+});
+
+$('#tab2').on('click' , function(){
+    $('#tab2').addClass('signup-shadow');
+   $('#tab1').removeClass('login-shadow');
+
+
+});
+</script>
+
+
+
+  	<script>
+function myFunction() {
+  // Get the checkbox
+  var checkBox = document.getElementById("myCheck");
+  // Get the output text
+  var text = document.getElementById("text");
+
+  // If the checkbox is checked, display the output text
+  if (checkBox.checked == true){
+    text.style.display = "block";
+	
+  } else {
+    text.style.display = "none";
+  }
+}
+		</script>
+
+
+<script>
+$(function() {
+	$(".btn").click(function() {
+		$(".form-signin").toggleClass("form-signin-left");
+    $(".form-signup").toggleClass("form-signup-left");
+    $(".frame").toggleClass("frame-long");
+    $(".signup-inactive").toggleClass("signup-active");
+    $(".signin-active").toggleClass("signin-inactive");
+    $(".forgot").toggleClass("forgot-left");   
+    $(this).removeClass("idle").addClass("active");
+	});
+});
+
+$(function() {
+	$(".btn-signup").click(function() {
+  $(".nav").toggleClass("nav-up");
+  $(".form-signup-left").toggleClass("form-signup-down");
+  $(".success").toggleClass("success-left"); 
+  $(".frame").toggleClass("frame-short");
+	});
+});
+
+$(function() {
+	$(".btn-signin").click(function() {
+  $(".btn-animate").toggleClass("btn-animate-grow");
+  $(".welcome").toggleClass("welcome-left");
+  $(".cover-photo").toggleClass("cover-photo-down");
+  $(".frame").toggleClass("frame-short");
+  $(".profile-photo").toggleClass("profile-photo-down");
+  $(".btn-goback").toggleClass("btn-goback-up");
+  $(".forgot").toggleClass("forgot-fade");
+	});
+});
+</script>
+
+
+</body>
+</html>
